@@ -40,3 +40,26 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+article {
+    width:  500px;
+    padding: 20px;
+}
+
+.demoreel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#profilephoto {
+    padding: 20px;
+    border: 0;
+    margin: 0;
+
+}
+
+#aboutme {
+    display: flex;
+}
