@@ -1,10 +1,17 @@
+/* Google font languages reference
+font-family: 'Amatic SC', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+*/
+
 body {
     background-color: cornsilk;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: lobster, cursive;
+    font-family: 'Lobster', sans-serif;
 }
 
 header {
@@ -31,14 +38,17 @@ footer {
     min-width: 1000px;
     padding: none;
     border: 5px solid;
-    margin: 20px;
+    margin: none;
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 18px;
+    color: aliceblue;
 }
 
 article {
@@ -46,11 +56,60 @@ article {
     padding: 20px;
 }
 
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+li {
+    margin-right: 20px;
+}
+
+iframe {
+    margin: 20px;
+}
+
+.upperNav {
+    font-size: 24px;
+    font-family: 'Lobster', sans-serif;
+}
+
 .demoreel {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.portfolioBanner {
+    background-color: cornflowerblue;
+    min-height: 450px;
+    min-width: 300px;
+    padding: none;
+    border: 5px solid;
+    margin: none;
+    text-align: center;
+}
+
+.animations {
+    display: flex;
+    padding: none;
+    border: none;
+    margin: 10px;
 }
 
 #profilephoto {
@@ -62,4 +121,36 @@ article {
 
 #aboutme {
     display: flex;
+}
+
+#gamesPortfolio {
+    background-color: cornflowerblue;
+    min-height: 400px;
+    min-width: 200px;
+    padding: none;
+    border: 5px solid;
+    margin: none;
+}
+
+#motionPortfolio {
+    background-color: cornflowerblue;
+    min-height: 400px;
+    min-width: 200px;
+    padding: none;
+    border: 5px solid;
+    margin: none;
+}
+
+#GetALife {
+    display: flex;
+    padding: none;
+    border: none;
+    margin: 10px;
+}
+
+#Aware {
+    display: flex;
+    padding: none;
+    border: none;
+    margin: 10px;
 }
