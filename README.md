@@ -5,4 +5,4 @@ The initial structure of this website is a Main/landing page, an About page, and
 
 The main page has an embedded video from my professional portfolio Vimeo account.
 
-The Portfolio page has additional webpages for more specific portfolio content. Current sub portfolios are my Game art portfolio and my Animation/Motion graphics portfolio. Current content for both only consist of embedded youtube videos from my current employeers youtube channel.
+The Portfolio page has additional webpages for more specific portfolio content. Current sub portfolios are my Game art portfolio and my Animation/Motion graphics portfolio. Current content for both only consist of embedded youtube videos from my current employeers youtube channel. These additional webpages can be navigated to via traditional text links or by clicking on the image vertical banners.
