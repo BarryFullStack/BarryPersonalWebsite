@@ -53,6 +53,7 @@ nav {
     color: aliceblue;
 }
 
+/*styling conrols for the navigation link text*/
 a:link {
     color: aliceblue;
     text-decoration: none;
@@ -72,6 +73,7 @@ a:active {
     color: aliceblue;
     text-decoration: underline;
 }
+/*end link text styling*/
 
 article {
     width:  500px;
@@ -98,10 +100,12 @@ iframe {
     margin: 20px;
 }
 
+/* css styling for line divider in portfolio pages*/
 hr.solid {
     border-top: 3px solid rgb(27, 29, 48);;
 }
 
+/*css styling for classes*/
 .upperNav {
     font-size: 24px;
     font-family: 'Amatic SC', sans-serif;
@@ -145,6 +149,7 @@ hr.solid {
 
 }
 
+/*css styling for ids*/
 #aboutme {
     display: flex;
 }
