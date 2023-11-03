@@ -142,16 +142,62 @@ hr.solid {
     margin: 10px;
 }
 
-#profilephoto {
-    padding: 20px;
-    border: 0;
-    margin: 0;
+/*styling for form*/
+.interest {
+    color:aliceblue;
+    background-color: rgb(7, 52, 137);
+    max-width: 1000px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: none;
+}
 
+#name {
+    min-width: 43%;
+}
+
+#email {
+    min-width: 43%;
+}
+
+#message {
+    min-width: 90%;
 }
 
 /*css styling for ids*/
+
 #aboutme {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+}
+
+#profilephoto {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    padding: 20px;
+    border: 0;
+    margin: 0;
+}
+
+#mystory {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    padding: 20px;
+    border: 0;
+    margin: 0;
+}
+
+#contactform {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    padding: 20px;
+    border: 0;
+    margin: 0;
 }
 
 #gamesPortfolio {
