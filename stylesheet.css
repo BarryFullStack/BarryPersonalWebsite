@@ -81,7 +81,6 @@ a:active {
     overflow: hidden;
 }
 
-
 .dropdown-content {
     color:  rgb(27, 29, 48);
     display: none;
@@ -110,6 +109,7 @@ a:active {
     background-color:  rgb(7, 52, 137);
     text-decoration: underline;
   }
+  /*end drop down styling*/
 
 article {
     width:  500px;
@@ -275,4 +275,54 @@ hr.solid {
     padding: none;
     border: none;
     margin: 10px;
+}
+
+@media (max-width: 376px) {
+    body {
+        width: 365px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    header {
+        min-width: 1em;
+        padding: 2%;
+        border: 0;
+        margin: 0;
+        text-align: left;
+        text-wrap: wrap;
+    }
+
+    main {
+        background-color: powderblue;
+        min-height: 50%;
+        min-width: 100%;
+        padding: none;
+        border: 0;
+        margin: 0;
+    }
+    iframe {
+        width: 95%;
+    }
+    footer {
+        color:aliceblue;
+        background-color: rgb(7, 52, 137);
+        min-height: 0%;
+        min-width: 100%;
+        padding: none;
+        border: none;
+        margin: none;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 18px;
+        padding: 2%;
+        color: aliceblue;
+    }
 }
