@@ -129,7 +129,7 @@ ul {
     font-family: 'Shadows Into Light', cursive;
 }
 li {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 iframe {
@@ -190,11 +190,11 @@ hr.solid {
 }
 
 #name {
-    min-width: 43%;
+    min-width: 90%;
 }
 
 #email {
-    min-width: 43%;
+    min-width: 90%;
 }
 
 #message {
@@ -277,33 +277,193 @@ hr.solid {
     margin: 10px;
 }
 
-@media (max-width: 376px) {
+ /*media above smart phone*/
+ @media (max-width: 1024px) {
     body {
-        width: 365px;
+        width: 98%;
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: start;
     }
     header {
-        min-width: 1em;
-        padding: 2%;
+        min-width: 100%;
+        padding: 0;
         border: 0;
         margin: 0;
-        text-align: left;
+        text-align: center;
         text-wrap: wrap;
     }
 
     main {
         background-color: powderblue;
-        min-height: 50%;
+        min-height: 25%;
+        min-width: 100%;
+        padding: none;
+        border: 0;
+        margin: 0;
+    }
+
+    footer {
+        color:aliceblue;
+        background-color: rgb(7, 52, 137);
+        min-height: 0%;
+        min-width: 100%;
+        padding: none;
+        border: none;
+        margin: none;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 18px;
+        padding: 2%;
+        color: aliceblue;
+    }
+
+    #aboutme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+    }
+    
+    #profilephoto {
+        padding: 5%;
+        border: 0;
+        margin: 0;
+    }
+    
+    #mystory {
+        width: fit-content;
+        padding: 2%;
+        border: 0;
+        margin: 0;
+        text-wrap: wrap;
+    }
+    
+    #contactform {
+        width: 85%;
+        padding: 2%;
+        border: 0;
+        margin: 0;
+    }
+    
+    #contactthanks {
+        padding: 2%;
+        border: 0;
+        margin: 0;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .portfolioBanner {
+        width: fit-content;
+        padding: none;
+        border: 2%;
+        margin: 5%;
+        text-align: center;
+    }
+    
+    .animations {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: none;
+        border: none;
+        margin: 10px;
+    }
+
+    #gamesPortfolio {
+        /*background-color: cornflowerblue;*/
+        min-height: fit-content;
+        min-width: fit-content;
+        padding: none;
+        border: 5px;
+        margin: none;
+    }
+    
+    #motionPortfolio {
+        /*background-color: cornflowerblue;*/
+        min-height: fit-content;
+        min-width: fit-content;
+        padding: none;
+        border: 5px;
+        margin: none;
+    }
+    
+    #GetALife {
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        border: none;
+        margin: 2%;
+    }
+    
+    #Aware {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: none;
+        border: none;
+        margin: 2%;
+    }    
+
+    article {
+        width:  95%;
+        padding: 2%;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 2%;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    li {
+        margin-right: 40px;
+    }
+}
+
+/*smartphone dimensions*/
+@media (max-width: 480px) {
+    body {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    header {
+        min-width: 100%;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        text-align: center;
+        text-wrap: wrap;
+    }
+
+    main {
+        background-color: powderblue;
+        min-height: 25%;
         min-width: 100%;
         padding: none;
         border: 0;
         margin: 0;
     }
     iframe {
-        width: 95%;
+        width: fit-content;
     }
     footer {
         color:aliceblue;
@@ -324,5 +484,117 @@ hr.solid {
         font-size: 18px;
         padding: 2%;
         color: aliceblue;
+    }
+
+    img {
+        width: 95%;
+    }
+
+    #aboutme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+    }
+    
+    #profilephoto {
+        padding: 5%;
+        border: 0;
+        margin: 0;
+    }
+    
+    #mystory {
+        width: fit-content;
+        padding: 2%;
+        border: 0;
+        margin: 0;
+        text-wrap: wrap;
+    }
+    
+    #contactform {
+        width: 65%;
+        padding: 2%;
+        border: 0;
+        margin: 0;
+    }
+    
+    #contactthanks {
+        padding: 2%;
+        border: 0;
+        margin: 0;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .portfolioBanner {
+        width: fit-content;
+        padding: none;
+        border: 2%;
+        margin: 5%;
+        text-align: center;
+    }
+    
+    .animations {
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        border: none;
+        margin: 10px;
+    }
+
+    #gamesPortfolio {
+        /*background-color: cornflowerblue;*/
+        min-height: fit-content;
+        min-width: fit-content;
+        padding: none;
+        border: 5px;
+        margin: none;
+    }
+    
+    #motionPortfolio {
+        /*background-color: cornflowerblue;*/
+        min-height: fit-content;
+        min-width: fit-content;
+        padding: none;
+        border: 5px;
+        margin: none;
+    }
+    
+    #GetALife {
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        border: none;
+        margin: 2%;
+    }
+    
+    #Aware {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: none;
+        border: none;
+        margin: 2%;
+    }    
+
+    article {
+        width:  95%;
+        padding: 2%;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 2%;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    li {
+        margin-right: 40px;
     }
 }
