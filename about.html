@@ -15,15 +15,24 @@
         <h3>Animator, Motion-graphics artist, Fullstack developer in training</h3>
         <nav class="upperNav">
             <a href="./index.html">Main Page</a>
-            <a href="./about.html">About</a>
-            <a href="./portfolio.html">Portfolio</a> <!--Plan to add drop down subcategories-->
+            <a href="./about.html">About/Contact Me</a>
+            <!--<a href="./portfolio.html">Portfolio</a> Plan to add drop down subcategories-->
+            <div class="dropdown">
+                <div class="dropbutton">
+                    <a href="./portfolio.html">Portfolio</a>
+                </div>
+                <div class="dropdown-content">
+                    <a href="./gameartist.html">Game Art</a>
+                    <a href="./motiongraphics.html">Animation</a>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main id="aboutme">
-        <aside id="profilephoto">
+        <div id="profilephoto">
             <img src="./images/Lisa-workProfileImage.jpg" alt="headshot phote of a mid-thirties white woman with glasses and long blonde hair"/>
-        </aside>
+        </div>
         <article id="mystory">
             <h2>ABOUT ME</h2>
             <p>
@@ -36,10 +45,13 @@
 
         <!--Plan to add a contact section into this area, possibly include social media links?-->
         <div id="contactform">
+            <h2>Contact form:</h2>
             <form action="./aboutinterest.html" method="get" class="interest">
                 <p>
                     <label for="name">Name:</label>
                     <input type="text" name="name" id="name" required/>
+                </p>
+                <p>
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" required/>
                 </p>
